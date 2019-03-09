@@ -7,4 +7,10 @@
 	}
 	
 	Add($num1,$num2);
+	echo "<br>";
+	
+	function RealDate($day, $date, $year){
+		echo $day.". ".$date.". ".$year;
+	}
+	RealDate("Monday", 12, 2019);
 ?>
