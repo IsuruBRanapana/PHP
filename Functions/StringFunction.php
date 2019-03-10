@@ -1,5 +1,5 @@
 <?php
-	$string="This is a string word.";
+	$string="This is a string word .";
 	//count of word
 	$string_word_count=str_word_count($string,0);
 	print_r($string_word_count."<br>");
